@@ -1,0 +1,215 @@
+::-webkit-input-placeholder {color:grey;}
+:-ms-input-placeholder      {color:grey;}
+.input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input:focus::-webkit-input-placeholder {text-indent: 700px; transition: text-indent 0.3s ease;}
+.input:focus::-moz-placeholder          {text-indent: 700px; transition: text-indent 0.3s ease;}
+.input:focus:-moz-placeholder           {text-indent: 700px; transition: text-indent 0.3s ease;}
+.input:focus:-ms-input-placeholder      {text-indent: 700px; transition: text-indent 0.3s ease;}
+*{
+	outline: none !important
+	}
+html {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  font-family: "BlissPro", sans-serif;
+  font-weight: normal;
+  font-size: 1.8rem;
+  min-width: 320px;
+  position: relative;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  color: #252525;
+  background-image: url(img/back_repair.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+form {
+  width: 100%;
+  margin: 10px;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+}
+a {
+  font-family: 'Oswald', sans-serif;
+}
+h1 {
+  margin-top: 10px;
+  font-size: 48px
+}
+h2 {
+  margin-top: 10px;
+  font-size: 40px
+}
+h3 {
+  font-size: 28px;
+}
+input {
+  font-family: 'Teko', sans-serif;
+  height: 30px;
+  border-radius: 5px;
+}
+hr {
+  width: 700px;
+}
+.header a {
+  font-size: 20px;
+  line-height: 1;
+  margin: 5px;
+  color: #fff;
+}
+.header a:hover {
+  text-decoration: none;
+  color: #63bde3;
+}
+.logo img {
+  max-height: 50%;
+  margin-top: 45px;
+  float: right;
+  position: relative;
+  right: -70px;
+}
+.tel {
+  margin-top: 15px;
+}
+.work h4 {
+  margin-top: 25px;
+  font-size: 44px;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  float: left;
+}
+.btn {
+  border-radius: 6px;
+  background-color: #ff0000;
+  box-shadow: 0px 5px 15px 0px rgba(174, 10, 10, 0.15);
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  height: 37px;
+  min-width: 268px;
+  padding: 0 18px;
+  line-height: 40px;
+  width: 100%;
+}
+.btn:hover {
+  text-decoration: none;
+  color: #fff;
+  box-shadow: none;
+  background-color: #ff0000;
+}
+.btn:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+.header {
+  position: relative;
+  width: 100%;
+  min-height: 160px;
+  overflow: hidden;
+  background: #2b4c80;
+  text-align: center;
+}
+.cont {
+  border: #2b4c80 solid 1px;
+  margin-top: 10%;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Teko', sans-serif;
+}
+.cont p {
+  font-size: 16px;
+}
+.fichi {
+  display: flex;
+  margin-bottom: 10px;
+}
+.fichi img {
+  max-width: 140px;
+  float: right;
+}
+.fichi p {
+  float: left;
+  margin-top: 22%;
+}
+.form {
+  padding-right: 40px;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 1350px) {
+  .work h4 {
+    font-size: 40px;
+    float: none;
+  }
+  .null {
+    display: none;
+  }
+  .logo img {
+    float: right;
+  }
+}
+@media only screen and (max-width: 1270px) {
+  .work h4 {
+    font-size: 36px;
+    margin-top: 30px;
+  }
+  .logo img{
+    float: none;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .work h4 {
+    font-size: 30px;
+    margin-top: 40px; 
+  }  
+}
+@media only screen and (max-width: 1000px) {
+  .logo img {
+    float: none;
+    right: 0;
+  }
+  .cont {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .null-2 {
+    display: none;
+  }
+  body {
+    background-image: none;
+    background-color: #799dd1;
+  }
+  .logo img{
+    right: 0;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .logo img{
+    width: 110%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .logo img{
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .cont p {
+    font-size: 20px;
+  }
+  .fichi img {
+    float: none;
+  }
+}
